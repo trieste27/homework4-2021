@@ -50,7 +50,7 @@ p{
 
 a{
   font-size: 16px;
-  color: #B92751;
+  color: #B21F50;
   text-decoration-style: wavy;
 }
 
@@ -66,7 +66,9 @@ a{
 
 td{
   text-align: center;
-  border-top: 2px #000000;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: #000000;
   padding: 10px;
 }
 
@@ -121,7 +123,7 @@ tr:nth-child(even){
 }
 
 tr:hover{
-  background-color: hsla(345, 88%, 26%, 0.25);
+  background-color: rgba(126, 8, 37, .25);
 }
 
 footer{
